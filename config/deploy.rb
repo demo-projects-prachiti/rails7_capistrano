@@ -16,7 +16,7 @@ set(:deploy_to) { "/home/neosoft/CAP" }
 # set :bundle_without,  [:development, :test]
 set :use_sudo, false
 set :repository, "."
-set :scm, :none
+# set :scm, :none
 # set :rvm_ruby, '3.0.0'
 # set :rvm_type, :system
 set :rvm_ruby_string, "ruby-3.0.0"
